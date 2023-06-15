@@ -60,7 +60,7 @@ SELECT fb.person_id, p.name from
 		AND d.gender = 'female'
 		AND d.car_make = 'Tesla'
 		AND d.car_model = 'Model S'
-    AND d.hair_color = 'red'
-    AND d.height > '64'
+                AND d.hair_color = 'red'
+    		AND d.height > '64'
 		AND d.height < '68';
   ```
